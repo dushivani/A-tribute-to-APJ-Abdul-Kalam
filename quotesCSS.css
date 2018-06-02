@@ -1,0 +1,37 @@
+body{
+  background: url("https://media1.giphy.com/media/U3qYN8S0j3bpK/giphy.gif");
+  color: white;
+  border: .1em dotted;
+  padding-bottom: 70%;
+  margin: 4%;
+}
+.qt{
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  font-family: 'Raleway Dots', cursive;
+}
+.card{
+  background: white;
+  width: 30%;
+  float: left;
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+div.box {
+    text-align: center;
+    background: linear-gradient(to bottom right, #D7B7B7 25%, #FAD5D5 50%, #ffffff 100%);
+    border-radius: 20%;
+    padding: 3%;
+    transform: scale(1);   
+}
+div.box:hover {
+    transform: scale(1.2);
+}
+.card-title {
+  font-family: 'Dancing Script', cursive;
+  color: #0647A8;
+  font-size: 1.7em;
+}
+

@@ -1,0 +1,74 @@
+.v1 {
+    border-left: .2em solid white;
+    height: 50em;
+    margin-left: 50%;
+}
+body{
+  background: url("https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-7-full.jpg");
+}
+h1{
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  color: white;
+  font-size: 7em;
+margin-top: 5%;
+}
+.speech-bubble{
+	position: relative;
+	background: white;
+	border-radius: 1em;
+  width: 50%;
+  margin-left: 15%;
+  padding: 5%;
+}
+.speech-bubble:after{
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-left-color: white;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-right: -20px;
+}
+.speech-bubble2 {
+	position: relative;
+	background: white;
+	border-radius: 1em;
+  width: 50%;
+  margin-left: 30%;
+  padding: 5%;
+}
+
+.speech-bubble2:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: white;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-left: -20px;
+}
+td{
+  border-collapse:collapse;
+  border-right: solid .2em white;
+padding-right: 2%;
+padding-left: 2%;
+padding-bottom: 3%;
+width: 20%;
+font-family: 'Kaushan Script', cursive;
+font-size: 1.5em;
+text-align: center;
+}
+.noTd{
+  border-right: none;
+}
